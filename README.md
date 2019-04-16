@@ -1,2 +1,2 @@
 # python-study
-*This is my first python study project.Good luck for me!!*
+*This is my first python learning project.Good luck for me!!*
