@@ -1,21 +1,8 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-
-class Employee:
-    '所有员工的基类'
-    empCount = 0
-
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
-        Employee.empCount += 1
-
-    def displayCount(self):
-        print("Total Employee %d" % Employee.empCount)
-
-    def displayEmployee(self):
-        print("Name : ", self.name, ", Salary: ", self.salary)
-
+# import grammar.Employee
+# 导入某一个类的写法
+from grammar.Employee import Employee
 
 if __name__ == "__main__":
     "创建 Employee 类的第一个对象"
@@ -25,3 +12,8 @@ if __name__ == "__main__":
     emp1.displayEmployee()
     emp2.displayEmployee()
     print("Total Employee %d" % Employee.empCount)
+
+    if True:
+        print(1);
+    else:
+        print(2);
